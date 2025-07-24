@@ -73,24 +73,28 @@ main section{
 }
 .btn-1{
     padding: 8px 16px;
+    border: none;
     border-radius:4px ;
     background-color: rgb(41, 107, 207);
     color: #fff;
 }
 .btn-2{
     padding: 8px 16px;
-    border-radius:4px ;
+    border: none;
+    border-radius:4px;
     background-color: rgb(241, 207, 55);
     color: #fff;
 }
 .btn-3{
     padding: 8px 16px;
+     border: none;
     border-radius:4px ;
     background-color: rgb(37, 202, 37);
     color: #fff;
 }
 .btn-4{
     padding: 8px 16px;
+     border: none;
     border-radius:4px ;
     background-color:teal;
     color: #fff;
@@ -157,7 +161,7 @@ main section{
 thead{
     background: #f6f5f5;
 }
-td, th{
+td ,th{
     padding: 16px;
     border-bottom: 1px solid #e7e4e4;
     text-align: start;
