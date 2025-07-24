@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanuman:wght@100;300;400;700;900&family=Libertinus+Mono&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #efefef;
+
+}
+header {
+    width:100%;
+    height: 54px;
+    background: #ffffff;
+    display: flex;
+    align-items: center;
+
+}
+header nav{
+    width: 100%;
+    padding:0px 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+header nav h4{
+    display: flex;
+    align-items: center;
+    gap:8px;
+    color:rgb(5,5,252);
+}
+header nav div a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    gap: 8px;
+    color: rgb(82, 78,78);
+    padding:16px;
+}
+div a span{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    gap: 8px;
+}
+#user-profile{
+    background: rgb(5,5,252);
+    width: 36px;
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    color: #fff;
+    font-weight: bold;
+    margin-right: 8px;
+}
+header nav div{
+    display: flex;
+    align-items: center;
+}
+main{
+    padding: 24px;
+}
+main section{
+    margin: 24px ;
+}
+.flex{
+    display: flex;
+}
+.spac{
+    justify-content: space-between;
+}
+.btn-1{
+    padding: 8px 16px;
+    border-radius:4px ;
+    background-color: rgb(41, 107, 207);
+    color: #fff;
+}
+.btn-2{
+    padding: 8px 16px;
+    border-radius:4px ;
+    background-color: rgb(241, 207, 55);
+    color: #fff;
+}
+.btn-3{
+    padding: 8px 16px;
+    border-radius:4px ;
+    background-color: rgb(37, 202, 37);
+    color: #fff;
+}
+.btn-4{
+    padding: 8px 16px;
+    border-radius:4px ;
+    background-color:teal;
+    color: #fff;
+}
+.card{
+    background: #fff;
+    padding: 16px;
+    border-radius: 8px;
+}
+ #icon{
+    width: 64px;
+    height: 64px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bg-icon1{
+    background-color: rgba(41, 107, 207, 0.89);
+    color: #fff
+}
+.bg-icon2{
+    background-color: rgba(127, 240, 197, 0.817);
+    color: #fff
+}
+.bg-icon3{
+    background-color: rgba(212, 231, 107, 0.849);
+    color: #fff
+}
+.bg-icon4{
+    background-color: rgba(241, 163, 80, 0.817);
+    color: #fff
+}
+.bg-icon5{
+    background-color: rgba(239, 227, 10, 0.799);
+    color: #fff
+}
+.bg-icon6{
+    background-color: rgba(244, 85, 77, 0.781);
+    color: #fff
+}
+
+.flex-col{
+    flex-direction: column;
+}
+.justify{
+    justify-content: center;
+}
+.item{
+    align-items: center;
+}
+.my-24{
+    margin: 24px 0px;
+}
+.flex{
+    justify-content: space-between;
+}
+.table{
+    width: 100%;
+    border-collapse: collapse;
+    padding: 32px 0;
+    margin:24px 0;
+}
+thead{
+    background: #f6f5f5;
+}
+td, th{
+    padding: 16px;
+    border-bottom: 1px solid #e7e4e4;
+    text-align: start;
+    color: #413f3f;
+}
+th{
+    color: #6c6969;
+    border-radius: 8px;
+}
+td h4{
+    color: #010101;
+    font-weight: bold;
+}
+.action{
+    color:rgba(77, 77, 250, 0.877);
+    text-decoration: none;
+    margin-right: 10px;
+}
+.delete{
+    color: red;
+    text-decoration: none;
+}
+strong1{
+    background-color: rgba(145, 238, 145, 0.516);
+    border-radius: 8px;
+    color: green;
+
+}
+strong2{
+    background-color: rgba(254, 179, 39, 0.42);
+    color: rgb(173, 130, 49);
+    border-radius: 8px;
+}
+strong3{
+    background: rgba(255, 0, 0, 0.304);
+    border-radius: 8px;
+    color: red;
+}
+
+

@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library system </title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library management system</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+    <header>
+       
+        <nav>
+              <h4><span class="material-symbols-outlined">menu_book</span>
+                Library management system</h4>
+            <div>
+                <a href="#">
+                    <span class="material-symbols-outlined">grid_view</span>
+                    <span>
+                        Dashboard
+                    </span>
+                    <span>
+                        <span class="material-symbols-outlined">server_person</span>
+                        Members
+                    </span>
+                    <span>
+                        <span class="material-symbols-outlined">server_person</span>
+                        Books list
+                    </span>
+                    <span>
+                        <span class="material-symbols-outlined">server_person</span>
+                        Borrow & return
+                    </span>
+                </a>
+            </div>
+            <div>
+                <p id="user-profile">J</p>
+                <p>Jonh Yasmith</p>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="flex spac">
+            <div>
+                <h1>Wellcome back, Jonk Yasmith</h1>
+                <p>Quick access on our system with this dashboard</p>
+            </div>
+            <div>
+                <button class="btn-1">Add new members</button>
+                <button class="btn-2">Add new book</button>
+                <button class="btn-3">Return book</button>
+                <button class="btn-4">Borrow book</button>
+            </div>
+        </section>
+        <section class="card">
+            <h4>System Overview</h4>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde, rerum.</p>
+            <div class="flex">
+                <div class="flex flex-col item justify my-24" >
+                    <span id="icon" class="flex bg-icon1  ">
+                        <span class="material-symbols-outlined">server_person</span>
+                        
+                    </span>
+                    <h4>203</h4>
+                    <p>Total members</p>
+                </div>
+                <div class="flex flex-col item justify my-24" >
+                    <span id="icon" class="flex bg-icon2 ">
+                        <span class="material-symbols-outlined">book_5</span>
+                        
+                    </span>
+                    <h4>2300</h4>
+                    <p>Total of books</p>
+                </div>
+                <div class="flex flex-col item justify my-24" >
+                    <span id="icon" class="flex bg-icon3  ">
+                        <span class="material-symbols-outlined">newsstand</span>
+                        
+                    </span>
+                    <h4>200</h4>
+                    <p>Available books for borrow</p>
+                </div>
+                <div class="flex flex-col item justify my-24" >
+                    <span id="icon" class="flex bg-icon4  ">
+                        <span class="material-symbols-outlined">auto_stories_off</span>
+                        
+                    </span>
+                    <h4>35</h4>
+                    <p>Books has been borrow today</p>
+                </div>
+                <div class="flex flex-col item justify my-24" >
+                    <span id="icon" class="flex bg-icon5  ">
+                        <span class="material-symbols-outlined">timer</span>
+                        
+                    </span>
+                    <h4>06</h4>
+                    <p>Books will return today</p>
+                </div>
+                <div class="flex flex-col item justify my-24" >
+                    <span id="icon" class="flex bg-icon6  ">
+                       <span class="material-symbols-outlined">timer_off</span>
+                        
+                    </span>
+                    <h4>03</h4>
+                    <p>Books late of return</p>
+                </div>
+            </div>
+        </section>
+        <section class="card">
+            <h4>Record of the books that will return today and over deadline.</h4>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>MEMBER ID</th>
+                        <th>MEMBER NAME</th>
+                        <th>BOOK TITLE</th>
+                        <th>BORROW DATE</th>
+                        <th>DUE DATE</th>
+                        <th>STATUS</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><h4>MEM001</h4></td>
+                        <td>Alice Johnson</td>
+                        <td>The Great Adventure</td>
+                        <td>2024-07-01</td>
+                        <td>2024-07-15</td>         
+                        <td><span class="status-overdue">Overdue</span></td>
+                    </tr>
+                    <tr>
+                        <td><h4>MEM002</h4></td>
+                        <td>Bob Williams</td>
+                        <td>Mystery of the Old House</td>
+                        <td>2024-06-20</td>
+                        <td>2024-07-04</td>         
+                        <td><span class="status-on-time">On Time</span></td>
+                    </tr>
+                </tbody>          
+            </table>
+        </section>
+        <section class="card">
+            <h4>Popular Books</h4>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>BOOKS ID</th>
+                        <th>TITLE</th>
+                        <th>AUTHOR</th>
+                        <th>GRNDER</th>
+                        <th>AVAILABILITY</th>
+                        <th>ACTIOINS</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><h4>BK001</h4></td>
+                        <td>The Great Adventure</td>
+                        <td>jane Doe</td>
+                        <td>Fantasy</td>
+                         <td><strong1>Available</strong> </td>
+                        <td>
+                            <a href="#" class="action">Edit</a>
+                            <a href="#" class="delete">Delete</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><h4>BK002</h4></td>
+                        <td>Mystery of the Old House</td>
+                        <td>Jonh Smith</td>
+                        <td>Mystery </td>
+                        <td><strong2>On loan </strong> </td>
+                      <td>
+                            <a href="#" class="action">Edit</a>
+                            <a href="#" class="delete">Delete</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><h4>BK003</h4></td>
+                        <td>Codind for Beginers</td>
+                        <td>Alice Wonderland</td>
+                        <td>Programing </td>
+                        <td><strong1>Available</strong> </td>
+                        <td>
+                            <a href="#" class="action">Edit</a>
+                            <a href="#" class="delete">Delete</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><h4>BK004</h4></td>
+                        <td>The Art of Cooking</td>
+                        <td>Chef Ramsey</td>
+                        <td>Cookbook </td>
+                        <td><strong3>Unvailable</strong> </td>
+                        <td>
+                            <a href="#" class="action">Edit</a>
+                            <a href="#" class="delete">Delete</a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+    
+    <footer>
+
+    </footer>
+</body>
+</html>
+</body>
+</html>
